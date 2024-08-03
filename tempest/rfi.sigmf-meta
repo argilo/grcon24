@@ -1,0 +1,19 @@
+{
+    "annotations": [
+    ],
+    "captures": [
+        {
+            "core:datetime": "2024-08-03T17:31:53.257Z",
+            "core:frequency": 371000000,
+            "core:sample_start": 0
+        }
+    ],
+    "global": {
+        "core:datatype": "cf32_le",
+        "core:hw": "OsmoSDR: rtl=0",
+        "core:recorder": "Gqrx 2.17.5",
+        "core:sample_rate": 2400000,
+        "core:author": "Clayton Smith",
+        "core:version": "1.0.0"
+    }
+}
