@@ -4,37 +4,32 @@
         <meta charset="utf-8">
         <title>title</title>
         <style>
-            .center{
+            .center {
                 height: 100vh;
                 display: flex;
-                justify-content: center;
                 align-items: center;
                 font-family: sans-serif;
                 font-size: 380px;
+                white-space: nowrap;
+                position: relative;
+                animation: CSSright linear 15s infinite;
+            }
+
+            @keyframes CSSright {
+                0% { right: -100% }
+                100% { right: 600% }
+            }
+
+            img {
+                vertical-align: middle;
+                padding: 100px;
+                height: 500px;
             }
         </style>
-        <script>
-            const flag = "flag{tempest_in_a_teapot}";
-            const delay = 2000;
-            const chunkSize = 5;
-
-            let offset = 0;
-
-            function updateFlag() {
-                const div = document.getElementById("flag");
-                if (offset >= flag.length) {
-                    div.innerText = "";
-                    offset = 0;
-                } else {
-                    div.innerText = flag.substring(offset, offset + chunkSize);
-                    offset += chunkSize;
-                }
-            }
-
-            setInterval(updateFlag, delay);
-        </script>
     </head>
     <body>
-        <div id="flag" class="center"></div>
+        <div class="center">
+            <img src="gnuradio_logo_icon.svg">flag{tempest_in_a_teapot}<img src="gnuradio_logo_icon.svg">
+        </div>
     </body>
 </html>
