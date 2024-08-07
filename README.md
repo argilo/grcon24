@@ -1,4 +1,4 @@
-GRCon 2023 CTF
+GRCon 2024 CTF
 ==============
 
 This repository contains the challenges I created for
