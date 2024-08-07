@@ -274,24 +274,6 @@ blocks:
     coordinate: [1120.0, 560]
     rotation: 270
     state: enabled
-- name: blocks_file_sink_0
-  id: blocks_file_sink
-  parameters:
-    affinity: ''
-    alias: ''
-    append: 'False'
-    comment: ''
-    file: test.cf32
-    type: complex
-    unbuffered: 'False'
-    vlen: '1'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [1416, 320.0]
-    rotation: 0
-    state: enabled
 - name: blocks_float_to_complex_0
   id: blocks_float_to_complex
   parameters:
@@ -1025,7 +1007,6 @@ connections:
 - [blocks_delay_0_0, '0', blocks_conjugate_cc_0, '0']
 - [blocks_delay_0_0, '0', sync_short, '0']
 - [blocks_divide_xx_0, '0', sync_short, '2']
-- [blocks_float_to_complex_0, '0', blocks_file_sink_0, '0']
 - [blocks_float_to_complex_0, '0', blocks_stream_to_vector_1, '0']
 - [blocks_moving_average_xx_0, '0', blocks_complex_to_mag_0, '0']
 - [blocks_moving_average_xx_0, '0', sync_short, '1']
