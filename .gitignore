@@ -1,1 +1,11 @@
+__pycache__/
 /tempest/rfi.sigmf-data
+/wifi/challenge.sigmf-data
+/wifi/combined.png
+/wifi/flag1.png
+/wifi/rickroll.png
+/wifi/solution.py
+/wifi/solution.pcap
+/wifi/wifi_gen.py
+/wifi/wifi_phy_paint_hier.block.yml
+/wifi/wifi_phy_paint_hier.py
