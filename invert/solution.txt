@@ -1,0 +1,2 @@
+nc -u -l localhost 7355 | ./deinvert -r 48000 -p 6 | play -r 48k -c 1 -t .s16 -
+nc -u -l localhost 7355 | ./deinvert -r 48000 -f 2800 -s 1200 -q 3 | play -r 48k -c 1 -t .s16 -
