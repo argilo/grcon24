@@ -11,5 +11,13 @@
             "core:frequency": 2462000000
         }
     ],
-    "annotations": []
+    "annotations": [
+        {
+            "core:sample_start": 51200,
+            "core:sample_count": 4300,
+            "core:freq_lower_edge": 2453718750,
+            "core:freq_upper_edge": 2470281250,
+            "core:label": "packet"
+        }
+    ]
 }
