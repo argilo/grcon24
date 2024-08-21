@@ -22,6 +22,9 @@ with open("combined.png", "rb") as f:
 
 chunk_size = -(len(image_data) // -PACKET_COUNT)
 payloads = [image_data[start:start+chunk_size] for start in range(0, len(image_data), chunk_size)]
+pad_len = len(payloads[0]) - len(payloads[-1])
+payloads[-1] += bytes([0] * pad_len)
+payloads.append(bytes([0] * chunk_size))
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
@@ -35,5 +38,4 @@ for identifier, payload in enumerate(payloads, start=0x0e3a):
         / Raw(load=payload)
     )
     packet_bytes = bytes(packet)
-    print(packet_bytes.hex())
     sock.sendto(packet_bytes, (GNURADIO_IP, GNURADIO_PORT))
