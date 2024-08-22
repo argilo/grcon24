@@ -70,7 +70,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: challenge.sigmf-data
+    file: ism.sigmf-data
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'

@@ -241,7 +241,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: challenge.sigmf-data
+    file: ism.sigmf-data
     type: complex
     unbuffered: 'False'
     vlen: '1'
