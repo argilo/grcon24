@@ -7,7 +7,7 @@ from scapy.all import LLC, SNAP, IP, UDP, Raw
 GNURADIO_IP = "127.0.0.1"
 GNURADIO_PORT = 52001
 
-IP_SRC = "10.42.0.1"
+IP_SRC = "10.42.0.58"
 IP_DST = "10.42.0.126"
 
 UDP_SPORT = 52743
