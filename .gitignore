@@ -1,4 +1,6 @@
 __pycache__/
+/am/noise.sigmf-data
+/am/weird_am.py
 /tempest/rfi.sigmf-data
 /wifi/ism.sigmf-data
 /wifi/combined.png
