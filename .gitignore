@@ -1,6 +1,11 @@
 __pycache__/
 /am/noise.sigmf-data
 /am/weird_am.py
+/fm/broadcast.sigmf-data
+/fm/demod.cf32
+/fm/demod.f32
+/fm/flag1.png
+/fm/weird_fm.py
 /tempest/rfi.sigmf-data
 /wifi/ism.sigmf-data
 /wifi/combined.png

@@ -1,0 +1,15 @@
+{
+    "global": {
+        "core:datatype": "cf32_le",
+        "core:sample_rate": 480000,
+        "core:author": "Clayton Smith",
+        "core:version": "1.0.0"
+    },
+    "captures": [
+        {
+            "core:frequency": 98700000,
+            "core:sample_start": 0
+        }
+    ],
+    "annotations": []
+}
