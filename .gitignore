@@ -6,6 +6,7 @@ __pycache__/
 /fm/demod.f32
 /fm/flag1.png
 /fm/weird_fm.py
+/fm/*.mp3
 /fm/solution.py
 /fm/part4_bits.bin
 /tempest/rfi.sigmf-data
