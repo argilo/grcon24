@@ -390,7 +390,7 @@ blocks:
     maxoutbuf: '0'
     minoutbuf: '0'
     offset: '0'
-    phase: math.pi
+    phase: math.pi - 0.5
     samp_rate: samp_rate
     showports: 'False'
     type: float
