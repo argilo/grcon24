@@ -9,6 +9,14 @@ __pycache__/
 /fm/*.mp3
 /fm/solution.py
 /fm/part4_bits.bin
+/sigid/m17_packet.py
+/sigid/m17_voice.py
+/sigid/packet_symbols.f32
+/sigid/packet_symbols_padded.f32
+/sigid/voice_symbols.s8
+/sigid/voice_symbols_padded.s8
+/sigid/sigid5.sigmf-data
+/sigid/sigid6.sigmf-data
 /tempest/rfi.sigmf-data
 /wifi/ism.sigmf-data
 /wifi/combined.png
