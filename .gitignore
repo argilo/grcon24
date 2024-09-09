@@ -10,9 +10,11 @@ __pycache__/
 /fm/solution.py
 /fm/part4_bits.bin
 /sigid/m17_packet.py
+/sigid/m17_packet_solution.py
 /sigid/m17_voice.py
 /sigid/packet_symbols.f32
 /sigid/packet_symbols_padded.f32
+/sigid/packet_symbols_solution.f32
 /sigid/voice_symbols.s8
 /sigid/voice_symbols_padded.s8
 /sigid/sigid5.sigmf-data
