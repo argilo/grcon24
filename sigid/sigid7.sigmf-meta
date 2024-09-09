@@ -1,0 +1,18 @@
+{
+    "annotations": [
+    ],
+    "captures": [
+        {
+            "core:datetime": "2024-09-09T21:03:23.228Z",
+            "core:frequency": 906875000,
+            "core:sample_start": 0
+        }
+    ],
+    "global": {
+        "core:datatype": "cf32_le",
+        "core:hw": "OsmoSDR: rtl=0",
+        "core:recorder": "Gqrx v2.17.5-2-g8567beb",
+        "core:sample_rate": 1000000,
+        "core:version": "1.0.0"
+    }
+}
