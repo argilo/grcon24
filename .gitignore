@@ -17,6 +17,9 @@ __pycache__/
 /sigid/packet_symbols_solution.f32
 /sigid/voice_symbols.s8
 /sigid/voice_symbols_padded.s8
+/sigid/pagerserver.py
+/sigid/sigid3.sigmf-data
+/sigid/sigid4.sigmf-data
 /sigid/sigid5.sigmf-data
 /sigid/sigid6.sigmf-data
 /tempest/rfi.sigmf-data
