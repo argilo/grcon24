@@ -189,7 +189,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: sigid5.sigmf-data
+    file: sigid6.sigmf-data
     type: complex
     unbuffered: 'False'
     vlen: '1'

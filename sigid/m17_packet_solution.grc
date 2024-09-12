@@ -164,7 +164,7 @@ blocks:
     alias: ''
     begin_tag: pmt.PMT_NIL
     comment: ''
-    file: sigid5.sigmf-data
+    file: sigid6.sigmf-data
     length: '0'
     maxoutbuf: '0'
     minoutbuf: '0'

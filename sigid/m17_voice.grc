@@ -206,7 +206,7 @@ blocks:
     alias: ''
     append: 'False'
     comment: ''
-    file: sigid6.sigmf-data
+    file: sigid5.sigmf-data
     type: complex
     unbuffered: 'False'
     vlen: '1'
